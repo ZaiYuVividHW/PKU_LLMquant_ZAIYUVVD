@@ -1,0 +1,48 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode
+.idea
+*.wpr
+*.wpu
+.vs
+x64
+
+# Temp
+build
+dist
+*.local
+
+# VeighNa
+.vntrader
+
+# Visual Studio intermediate files
+*.exp
+*.iobj
+*.ipdb
+*.pdb
+
+# Documents
+_build
+_static
+_templates
+
+# Misc
+.DS_Store
+*.mo
+
+# Alpha
+raw/
+*.pkl
+*.json
+!projects/**/config.json
+
+# 挖掘轮次与终局产物（log 2026-09-16 既定意图：runs/ 产物不纳入 git）
+projects/*/runs/

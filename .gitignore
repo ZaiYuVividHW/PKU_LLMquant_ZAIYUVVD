@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 量化程序运行产物（源码与笔记仍入库）
+projects/*/runs/
+projects/*/cache/
+*.pkl
+*.h5
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/
+*.swp
